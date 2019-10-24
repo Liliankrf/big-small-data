@@ -1,0 +1,136 @@
+body {
+    background-color: #0B0B61;
+    
+    margin: 0;
+    padding: 0;
+    font-size: calc(1rem + 0.25vh);
+  }
+
+
+
+  
+  #bde{
+
+    width:400px ;
+    height: 400px;
+    margin-left:0px;
+    margin-top: 0px;
+    grid-column: 1 / 4;
+    grid-row: 2;
+  
+  }
+
+  .secteur{
+    
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:8px;
+    position: absolute;
+    font:bold 25px Arial;
+    color:black;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+
+.circle{
+    
+    margin-left:500px;
+    width:400px;
+    background:#Ffff;
+    height:200px;
+    text-align:center;
+    border-radius:100px;
+    <strong>line-height: 90px; /* 100 - 10 */</strong>
+    font:bold 20px Arial;
+   
+  
+}
+
+.response1 {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#ffff;
+	font:bold 40px Arial;
+    color:black;
+    width: 300px;
+    height:200px;
+    /
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.response2{
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#ffff;
+	font:bold 40px Arial;
+    color:black;
+    width: 300px;
+    height:200px;
+    
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+
+.response3 {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#ffff;
+	font:bold 40px Arial;
+    color:black;
+    width: 300px;
+    height:200px;
+    
+    
+    grid-column: 1 / 2;
+    grid-row: 2 ;
+}
+
+.response4 {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#ffff;
+	font:bold 40px Arial;
+    color:black;
+    width: 300px;
+    height:200px;
+    
+    grid-column: 2 / 2;
+    grid-row: 2 ;
+}
+.allresponse{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+
+.piwiboutons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+.piwi{
+
+    grid-column: 1 / 2;
+    grid-row: 1 ;
+
+}
+
+.touslesboutons{
+
+    grid-column: 2 / 2;
+    grid-row: 1 ;
+
+}

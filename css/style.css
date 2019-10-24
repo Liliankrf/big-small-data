@@ -12,12 +12,22 @@ body {
 
 
 
+
+    
 .salut{
     
-    
-color:#ffff;
-    
+        border:none;
+        padding:6px 0 6px 0;
+        border-radius:8px;
+        position: absolute;
+        font:bold 25px Arial;
+        color:#ffff;
+        margin-top: 50px;
+        margin-left:10px;
+        text-align: center;
+        
 }
+    
 
 
 .commencer {
@@ -25,26 +35,121 @@ color:#ffff;
 	padding:6px 0 6px 0;
 	border-radius:8px;
 	background:#d34836;
-	font:bold 13px Arial;
+	font:bold 40px Arial;
     color:#fff;
-    width: 400px;
+    width: 300px;
     height:200px;
+    margin-left: 750px;
+    margin-top: 50px;
+    
 }
 
 
   #bde{
 
-
-    margin-left:800px;
-    margin-top: 300px;
+    width:400px ;
+    height: 400px;
+    margin-left:700px;
+    margin-top: 100px;
+    
+  
   }
 
   .arrondie{
-      width: 50px;
-      height:50px;
+    width: 200px;
+    height:200px;
     background-color: #ffff;
     border-radius: 5px 10px 0 5px;
+    
+ 
   }
 
+  .rond{
+	width:400px;
+	height:200px;
+	background:#ffff;
+	border-radius:100px;
 
+    margin-left: 800px;
+    margin-top: 50px;
+    margin:10px;
+    width:400px;
+    background:#ffff;
+    height:200px;
+    text-align:center;
+    border-radius:100px;
+    <strong>line-height: 50px; /* 100 - 10 */</strong>
+   
+}
+.rond2{
+	width:400px;
+	height:200px;
+	background:black;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+    border-radius:100px;
+    margin-left: 1200px;
+    margin-top: -220px;
+    
+    
+  
+}
+.rond2.multi-line{
+    line-height:50px;
+    height:70px;
+    padding-top:30px;
+    /* 70 + 30 = 100 */
+    
+    
+}
+.alternance{
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:8px;
+    position: absolute;
+    font:bold 25px Arial;
+    color:black;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
 
+  
+
+  
+
+.circle{
+    
+    margin:10px;
+    width:400px;
+    background:#Ffff;
+    height:200px;
+    text-align:center;
+    border-radius:100px;
+    <strong>line-height: 90px; /* 100 - 10 */</strong>
+    font:bold 20px Arial;
+
+  
+}
+.circle.multi-line{
+    line-height:50px;
+    height:70px;
+    padding-top:30px;
+    /* 70 + 30 = 100 */
+    text-align: center;
+    
+}
+.commencer {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#d34836;
+	font:bold 40px Arial;
+    color:#fff;
+    width: 300px;
+    height:200px;
+    margin-left: 750px;
+    margin-top: 50px;
+    
+}
