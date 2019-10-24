@@ -12,9 +12,22 @@ body {
 
 
 
+<<<<<<< HEAD
 
     
 .salut{
+=======
+.salut{
+    
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:8px;
+	
+    font:bold 20px Arial;
+    color:#ffff;
+
+    text-align: center;
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
     
         border:none;
         padding:6px 0 6px 0;
@@ -105,6 +118,7 @@ body {
 }
 .alternance{
     border:none;
+<<<<<<< HEAD
     padding:6px 0 6px 0;
     border-radius:8px;
     position: absolute;
@@ -112,10 +126,17 @@ body {
     color:black;
     margin-top: 50px;
     margin-left: 20px;
+=======
+     padding:6px 0 6px 0;
+    border-radius:8px;
+    font:bold 20px Arial;
+    color:black;
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
     text-align: center;
 }
 
   
+<<<<<<< HEAD
 
   
 
@@ -130,6 +151,22 @@ body {
     <strong>line-height: 90px; /* 100 - 10 */</strong>
     font:bold 20px Arial;
 
+=======
+
+  
+
+.circle{
+    
+    margin:10px;
+    width:400px;
+    background:#Ffff;
+    height:200px;
+    text-align:center;
+    border-radius:100px;
+    <strong>line-height: 90px; /* 100 - 10 */</strong>
+    font:bold 20px Arial;
+
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
   
 }
 .circle.multi-line{

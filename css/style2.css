@@ -13,14 +13,20 @@ body {
 
     width:400px ;
     height: 400px;
+<<<<<<< HEAD
     margin-left:0px;
     margin-top: 0px;
+=======
+    margin-left:100px;
+    margin-top: 100px;
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
     grid-column: 1 / 4;
     grid-row: 2;
   
   }
 
   .secteur{
+<<<<<<< HEAD
     
     border:none;
     padding:6px 0 6px 0;
@@ -32,6 +38,14 @@ body {
     margin-left: 40px;
     text-align: center;
     
+=======
+    border:none;
+     padding:6px 0 6px 0;
+    border-radius:8px;
+    font:bold 20px Arial;
+    color:black;
+    text-align: center;
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
 }
 
 .circle{
@@ -44,11 +58,20 @@ body {
     border-radius:100px;
     <strong>line-height: 90px; /* 100 - 10 */</strong>
     font:bold 20px Arial;
+<<<<<<< HEAD
    
   
 }
 
 .response1 {
+=======
+    grid-column:  2 / 4;
+    grid-row: 1 / 3;
+  
+}
+
+.comm {
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
 	border:none;
 	padding:6px 0 6px 0;
 	border-radius:8px;
@@ -57,12 +80,21 @@ body {
     color:black;
     width: 300px;
     height:200px;
+<<<<<<< HEAD
     /
     grid-column: 1 / 2;
     grid-row: 1;
 }
 
 .response2{
+=======
+   
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.informatique {
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
 	border:none;
 	padding:6px 0 6px 0;
 	border-radius:8px;
@@ -72,11 +104,19 @@ body {
     width: 300px;
     height:200px;
     
+<<<<<<< HEAD
     grid-column: 2 / 2;
     grid-row: 1;
 }
 
 .response3 {
+=======
+    grid-column: 3 / 4;
+    grid-row: 2 / 3 ;
+}
+
+.programmation {
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
 	border:none;
 	padding:6px 0 6px 0;
 	border-radius:8px;
@@ -87,6 +127,7 @@ body {
     height:200px;
     
     
+<<<<<<< HEAD
     grid-column: 1 / 2;
     grid-row: 2 ;
 }
@@ -133,4 +174,29 @@ body {
     grid-column: 2 / 2;
     grid-row: 1 ;
 
+=======
+    grid-column: 4 / 4;
+    grid-row: 2 / 3;
+}
+
+.suivant {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:black;
+	font:bold 40px Arial;
+    color:#ffff;
+    width: 300px;
+    height:200px;
+    
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+>>>>>>> dd440f1e5c915335e76bdf9a6b7cd1290ec0ea6e
 }
